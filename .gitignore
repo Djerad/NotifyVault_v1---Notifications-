@@ -1,0 +1,161 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+*~
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# ════════════════════════════════════════════════
+# 🔐 FIREBASE - DO NOT COMMIT SECRET FILES
+# ════════════════════════════════════════════════
+
+# Firebase configuration files (contain API keys!)
+firebase_options.dart
+google-services.json
+GoogleService-Info.plist
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# ════════════════════════════════════════════════
+# 📱 PLATFORM SPECIFIC
+# ════════════════════════════════════════════════
+
+# Android
+/android/local.properties
+/android/.gradle/
+/android/**/local.properties
+/android/**/GeneratedPluginRegistrant.java
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/ephemeral/
+/ios/Flutter/.last_build_id
+/ios/.symlinks/
+/ios/.generated/
+/ios/Pods/
+/ios/Podfile.lock
+
+# macOS
+/macos/Flutter/GeneratedPluginRegistrant.swift
+/macos/Flutter/Flutter-Debug.xcconfig
+/macos/Flutter/Flutter-Release.xcconfig
+
+# Web
+/web/packages/
+/web/plugins/
+
+# Windows
+windows/flutter/generated_plugins.cmake
+windows/flutter/generated_plugin_register.cc
+windows/flutter/generated_plugins.cmake
+
+# Linux
+/linux/flutter/generated_plugins.cmake
+/linux/flutter/generated_plugin_register.cc
+/linux/flutter/generated_plugins.cmake
+
+# ════════════════════════════════════════════════
+# 💾 BUILD & DISTRIBUTION
+# ════════════════════════════════════════════════
+
+# APK files
+*.apk
+*.aab
+*.ipa
+*.app
+
+# Build outputs
+/build/
+/bin/
+/dist/
+*.zip
+*.tar.gz
+
+# ════════════════════════════════════════════════
+# 📚 DEPENDENCIES & PACKAGES
+# ════════════════════════════════════════════════
+
+pubspec.lock
+.packages
+
+# ════════════════════════════════════════════════
+# 🧪 TESTING
+# ════════════════════════════════════════════════
+
+coverage/
+.coverage
+.test/
+
+# ════════════════════════════════════════════════
+# 📊 IDE & EDITOR
+# ════════════════════════════════════════════════
+
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ════════════════════════════════════════════════
+# 🔑 SENSITIVE DATA
+# ════════════════════════════════════════════════
+
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+secrets/
+.secrets/
